@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    background-color: azure;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+main{
+    background-color: grey;
+    width: 75%;
+    margin: auto;
+    color: white;
+    height: 90vh;
+    max-width: 500px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+div.container{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+form{
+    margin-top: 20px;
+}
+form *{
+    margin: 10px;
+}
+form a{
+    color: white;
+    text-decoration: none;
+}
+form a:hover{
+    color: darkorange;
+}
+label{
+    display: block;
+    margin: 0px auto ;
+}
+input#emailtele, input#senha{
+    border-radius: 5px;
+    border: 1px;
+}
+input[type="submit"]{
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0px ;
+    color: white;
+    background-color: black;
+}
